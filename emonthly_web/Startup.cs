@@ -32,7 +32,7 @@ namespace emonthly_web
 
             ClusterHelper.Initialize(new ClientConfiguration
             {
-                Servers = new List<Uri> { new Uri("couchbase://localhost") }
+                Servers = new List<Uri> { new Uri("couchbase://ec2-52-47-100-5.eu-west-3.compute.amazonaws.com") }
             }, new PasswordAuthenticator("emonthly", "password"));
         }
 

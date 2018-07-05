@@ -9,6 +9,6 @@ namespace emonthly_web.Models
     {
         public string Nom { get; set; }
         public int Note { get; set; }
-        public int Commentaire { get; set; }
+        public string Commentaire { get; set; }
     }
 }
